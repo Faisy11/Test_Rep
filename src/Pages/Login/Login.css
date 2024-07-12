@@ -1,0 +1,37 @@
+.LoginContainer {
+    background-image: url(../../asset/vbbg.webp); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    display: flex; 
+    justify-content: left; 
+    padding-left: 10vh;
+    align-items: center;
+}
+.LoginContainer .LoginBox{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    width: 25%;
+    align-items: center;
+}
+.LoginContainer .InputField{
+
+}
+
+@media (max-width: 768px) {
+    .LoginContainer {
+        background-position: center; 
+    }
+}
+
+@media (max-width: 480px) {
+    .LoginContainer {
+        background-size: cover; 
+        height: 100vh; 
+    }
+}
